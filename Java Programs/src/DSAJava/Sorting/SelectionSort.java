@@ -1,5 +1,5 @@
-package OOPsJAVA;
-import java.util.Scanner;
+package DSAJava.Sorting;
+
 public class SelectionSort {
     static void selectionSort(int[]arr){
         int n = arr.length;
