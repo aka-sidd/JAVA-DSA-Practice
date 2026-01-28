@@ -1,7 +1,7 @@
 //Print array in reverse without USing Extra Array
 
 package ArrayPlusHashMap;
-import java.util.*;
+
 public class PrintReverse {
     public static void printReverse(int[]arr){
         int i = 0;

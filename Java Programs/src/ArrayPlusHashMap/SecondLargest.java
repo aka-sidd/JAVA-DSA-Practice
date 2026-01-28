@@ -1,7 +1,7 @@
 package ArrayPlusHashMap;
 
-public class SecondLargest {
-    static int[] Secondlargest(int[]arr){
+public class SecondLargest{
+    static int[] secondlargest(int[]arr){
         int n = arr.length;
         int largest = arr[0];
         int secondlargest = arr[0];
@@ -22,7 +22,7 @@ public class SecondLargest {
     }
     public static void main(String[] args) {
         int[]arr = {10,20,5,8,20,15};
-        int[]result = Secondlargest(arr);
+        int[]result = secondlargest(arr);
         System.out.println("Largest Element is: "+result[0] + "| Index = "+result[1]);
         System.out.println("SecondLargest Element is: "+result[2] +" | Index = " +result[3]);
     }
