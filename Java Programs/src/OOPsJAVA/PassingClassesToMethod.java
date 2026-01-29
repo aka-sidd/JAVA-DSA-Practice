@@ -7,6 +7,9 @@ public class PassingClassesToMethod {
         double length;
         String type;
         int torque;
+        void print(){
+            System.out.println(seats+ " " + name +" " + length+ " m " + type + " "+ torque + " nm ");
+        }
     }
     public static void main(String[] args) {
      Car c = new Car();
@@ -14,10 +17,13 @@ public class PassingClassesToMethod {
      c.name = "Sonet";
      c.seats = 5;
      c.type = "SUV";
+     c.torque = 178;
      change(c);
         System.out.println(c.seats);
+        c.print();
     }
-    private static void change(Car c){
+    private static void change(Car c)
+    {
         c.seats = 4;
     }
 }
