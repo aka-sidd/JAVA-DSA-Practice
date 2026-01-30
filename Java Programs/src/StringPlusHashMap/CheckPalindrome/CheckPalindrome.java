@@ -1,4 +1,4 @@
-package StringPlusHashMap;
+package StringPlusHashMap.CheckPalindrome;
 //This is Brute force
 public class CheckPalindrome {
     public static boolean isPalindromeBrute(String s){

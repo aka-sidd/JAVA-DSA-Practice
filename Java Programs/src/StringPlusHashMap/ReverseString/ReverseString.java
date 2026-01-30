@@ -1,4 +1,4 @@
-package StringPlusHashMap;
+package StringPlusHashMap.ReverseString;
 
 public class ReverseString {
 
