@@ -1,4 +1,4 @@
-package OOPsJAVA;
+package OOPsJAVA.OOPSIntro;
 
 public class PassingClassesToMethod {
     public static class Car {

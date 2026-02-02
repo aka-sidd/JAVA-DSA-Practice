@@ -1,4 +1,4 @@
-package OOPsJAVA;
+package OOPsJAVA.OOPSIntro;
 import java.util.*;
  // create own datatype
 public class UserDefinedDataType {

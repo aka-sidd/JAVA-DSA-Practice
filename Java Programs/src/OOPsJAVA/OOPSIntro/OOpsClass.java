@@ -1,4 +1,4 @@
-package OOPsJAVA;
+package OOPsJAVA.OOPSIntro;
 
 public class OOpsClass {
         public static class Student { //USer defined data type
