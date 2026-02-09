@@ -1,12 +1,6 @@
 package DSAJava.BinarySearch.FirstAndLastOccurence;
 
 public class FindFirstAndLastOccurence {
-    /**
-     * File: FirstLastOccurrence.java
-     * Description: Find first and last occurrence of an element in a sorted array using Binary Search.
-     * Author: Siddharth Pandey
-     */
-
         // Find first occurrence (leftmost index)
         public static int firstOccurrence(int[] arr, int target) {
             int left = 0, right = arr.length - 1;
