@@ -1,11 +1,13 @@
 package OOPsJAVA.OOPSIntro;
 
 public class OOpsClass {
+    // template basically
         public static class Student { //USer defined data type
             String name; // name as a string
-            int rno; //rno as a integer
+            int rno; //rno as integer
             double percent;//percent as a double...
         }
+        // template that is used to create an object
         public static class Car{
             String name;
             String type;
@@ -14,9 +16,10 @@ public class OOpsClass {
         }
 
     public static void main(String[] args) {
-        Student x = new Student();
-        x.name = "Siddharth";
-        x.rno = 76;
+            // here We create an object
+       Student x = new Student();
+       x.name = "Siddharth";
+       x.rno = 76;
         x.percent = 65.8;
         System.out.println(x.name);
         System.out.println(x.rno +8);
