@@ -1,4 +1,4 @@
-package DSAJava.Stacks;
+package DSAJava.Stacks.basics;
 
 public class LLImplementation {
     public static class Node{ //user defined data type
