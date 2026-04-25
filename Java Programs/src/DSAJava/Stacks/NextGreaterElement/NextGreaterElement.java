@@ -1,4 +1,4 @@
-package DSAJava.Stacks;
+package DSAJava.Stacks.NextGreaterElement;
 import java.util.*;
 public class NextGreaterElement {
     public ArrayList<Integer>nextGreater(int[]arr){

@@ -1,14 +1,8 @@
 package OOPsJAVA.CarShowRoomManagementSystem;
-import java.awt.*;
+
 import java.util.*;
 import java.lang.*;
-import java.util.concurrent.Callable;
 
-interface utility {
-    public void get_details();
-    public void set_details();
-
-}
 public class Main {
     static void main_menu(){
         System.out.println();

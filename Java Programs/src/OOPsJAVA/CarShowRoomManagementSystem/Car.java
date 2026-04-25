@@ -1,7 +1,6 @@
 package OOPsJAVA.CarShowRoomManagementSystem;
-import java.sql.SQLOutput;
 import java.util.Scanner;
-public class Car extends Showroom implements utility{
+public class Car extends Showroom implements utility {
     String car_name;
     String car_color;
     String car_fuel_type;

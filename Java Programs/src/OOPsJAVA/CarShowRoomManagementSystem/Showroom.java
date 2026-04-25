@@ -1,5 +1,5 @@
 package OOPsJAVA.CarShowRoomManagementSystem;
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 public class Showroom implements utility {
     String showroom_name;
